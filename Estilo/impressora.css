@@ -1,0 +1,12 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+nav{
+    display: none;
+}
+
+img{
+   height: 100px;
+   width: 200px;
+}

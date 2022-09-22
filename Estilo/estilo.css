@@ -1,0 +1,145 @@
+@font-face {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: url(Font/SF\ Distant\ Galaxy\ Italic.ttf) format(ttf);
+}
+@font-face {
+    font-family: cursive;
+    src: url(Font/SF\ Distant\ Galaxy\ Symbols\ Italic.ttf) format(ttf);
+}
+@font-face {
+    font-family: fantasy;
+    src: url(Font/SF\ Distant\ Galaxy\ Alternate\ Italic.ttf) format(ttf);
+}
+@font-face {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(Font/SF\ Distant\ Galaxy\ AltOutline\ Italic.ttf) format(ttf);
+}
+@font-face {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    src: url(Font/SF\ Distant\ Galaxy\ AltOutline.ttf) format(ttf);
+}
+header{
+    background-image: linear-gradient(to right,#f5dd0886,#897d117c) ;
+      border: 5px solid #0a090160;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      text-align: center;
+    
+  }
+  header >h1{
+      background-color:#665f157c;
+      border: 5px solid #0a0901a8;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      text-align: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      text-shadow: 2px 3px 2px #1F2326;
+  }
+  nav > a{
+      background-image: linear-gradient(to right,#edd81d86,#554d0a73) ;
+         color:#0A0901;
+         border: 5px solid #0a0901a8;
+         text-align:center;
+         margin-right:25px;
+         margin-bottom: 5px;
+         border-radius: 10px;
+   }
+   section{
+      background-image: linear-gradient(to right,#edd81d86,#554d0a73) ;
+      background-color:#f5e01e80 ;
+      border: 5px solid #0a0901a8;
+      margin-bottom: 5px;
+      border-radius: 10px;
+  }
+  section #segunda,#terceira{
+      background-image: linear-gradient(to right,#edd81d86,#554d0a73) ;
+      background-color:#f5e01e85 ;
+      border: 5px solid #0a0901a8;
+      margin-bottom: 5px;
+      border-radius: 10px;
+  } 
+  section > h1{
+      background-color:#665f157c;
+      border: 5px solid #0a0901a8;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      text-align: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      text-shadow: 2px 3px 2px #1F2326;
+  }
+  
+  body{ 
+      background-image:url(../Imagem/Todos\ os\ filmes.png);
+      background-repeat: no-repeat;
+      background-size: cover;  
+  }
+  main{
+      background-color:#0a090180;
+      width: 800px;
+      margin: auto;
+      border-radius:10px;
+      padding: 15px;
+  }
+  h1{
+      color:#0A0901;
+      background-color:#f5e01e8e;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-shadow: 2px 3px 2px #1F2326;
+  }
+  h2,#principal,#secundario{
+      color:#0A0901;
+      background-color:#f5e01e8e;   
+      font-family:'cursive','Metalia.ttf';
+      text-shadow: 2px 3px 2px #1F2326;
+  } 
+  p{
+      text-align: justify;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:#0A0901;
+  }
+  ol,ul{
+      columns: 2 ;
+      list-style-image:url(../Imagem/Star-Wars-The-Old-Republic-8-icon.png);
+      background-color:#897d1185;     
+  }
+  img{
+   margin: 5px auto;
+   display: block; 
+  }
+a{     
+    color: black;
+    text-decoration:#e9c603;
+}
+a:visited{
+    color:#003144;
+}
+a 
+:hover{
+   
+     color:#ffd900;
+}
+  table{
+    border-collapse: collapse black;
+    text-align:center;
+    font-family: 'fantasy', 'Hack-Bold.ttf';
+    margin:  5px auto;
+}
+td,th{
+    border: 2px inset #000000b6;
+}
+  tBody>tr:nth-child(3n),th,tfoot{
+  background-color:#686339c0;
+}
+  footer p{
+      background-image: linear-gradient(to right,#edd81d86,#554d0a73) ;
+      background-color:#665f157c;
+      border: 5px solid #0a0901a8;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      text-align: center;
+      text-shadow: 2px 3px 2px #1F2326;    
+  }
